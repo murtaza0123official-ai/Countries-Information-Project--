@@ -1,0 +1,38 @@
+.footer
+{
+  background: url("/moon and stars.jpg") no-repeat center center; /* from public folder */
+  background-size: cover;
+}
+.footer img {
+  height: 100px;       /* adjust size */
+  width: auto;       /* keep aspect ratio */
+  object-fit: contain;
+  display: block;
+  border-radius: 50%;
+  transition: transform 0.4s ease-in-out;
+
+}
+footer img:hover
+{
+  transition: transform 0.4s ease-in-out;
+
+}
+.footer-link {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-icon {
+  color: #ccc;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #fff;
+}

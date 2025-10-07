@@ -1,0 +1,93 @@
+[
+    {
+      "id" : 1,
+      "name": "China",
+      "capital": "Beijing",
+      "population": "1.41 billion",
+      "currency": "Renminbi (Yuan, CNY)",
+      "languages": ["Mandarin Chinese (official)", "various regional languages"],
+      "fact": "China is home to the Great Wall, the only human-made structure visible from space."
+    },
+    {
+      "id" : 2,
+      "name": "India",
+      "capital": "New Delhi",
+      "population": "1.40 billion",
+      "currency": "Indian Rupee (INR)",
+      "languages": ["Hindi", "English", "22 scheduled regional languages"],
+      "fact": "India is the world’s largest democracy and the birthplace of yoga and chess."
+    },
+    {
+      "id":3,
+      "name": "United States",
+      "capital": "Washington, D.C.",
+      "population": "335 million",
+      "currency": "United States Dollar (USD)",
+      "languages": ["English (de facto)", "Spanish widely spoken"],
+      "fact": "The US has the world’s largest economy and is home to the Grand Canyon."
+    },
+    {
+        "id":4,
+      "name": "Indonesia",
+      "capital": "Jakarta",
+      "population": "280 million",
+      "currency": "Indonesian Rupiah (IDR)",
+      "languages": ["Indonesian (Bahasa Indonesia)", "700+ local languages"],
+      "fact": "Indonesia is the largest archipelago nation with over 17,000 islands."
+    },
+    {
+       "id" : 5,
+      "name": "Pakistan",
+      "capital": "Islamabad",
+      "population": "245 million",
+      "currency": "Pakistani Rupee (PKR)",
+      "languages": ["Urdu (national)", "English (official)", "regional languages"],
+      "fact": "Pakistan is home to K2, the second-highest mountain in the world."
+    },
+    {
+        "id" : 6,
+      "name": "Nigeria",
+      "capital": "Abuja",
+      "population": "230 million",
+      "currency": "Nigerian Naira (NGN)",
+      "languages": ["English (official)", "Hausa", "Yoruba", "Igbo", "500+ others"],
+      "fact": "Nigeria is Africa’s most populated country and the largest oil producer on the continent."
+    },
+    {
+        "id" : 7,
+      "name": "Brazil",
+      "capital": "Brasília",
+      "population": "217 million",
+      "currency": "Brazilian Real (BRL)",
+      "languages": ["Portuguese (official)"],
+      "fact": "Brazil is home to the Amazon Rainforest, the largest rainforest on Earth."
+    },
+    {
+        "id" : 8,
+      "name": "Bangladesh",
+      "capital": "Dhaka",
+      "population": "173 million",
+      "currency": "Bangladeshi Taka (BDT)",
+      "languages": ["Bengali (Bangla)"],
+      "fact": "Bangladesh has the world’s largest river delta (Ganges-Brahmaputra Delta)."
+    },
+    {
+        "id" : 9,
+      "name": "Russia",
+      "capital": "Moscow",
+      "population": "142 million",
+      "currency": "Russian Ruble (RUB)",
+      "languages": ["Russian (official)", "regional minority languages"],
+      "fact": "Russia is the largest country by land area, spanning 11 time zones."
+    },
+    {
+        "id" : 10,
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "population": "129 million",
+      "currency": "Mexican Peso (MXN)",
+      "languages": ["Spanish (official)", "68 recognized indigenous languages"],
+      "fact": "Mexico is the birthplace of chocolate, corn, and chili peppers."
+    }
+  ]
+

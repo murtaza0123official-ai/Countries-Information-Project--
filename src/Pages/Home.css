@@ -1,0 +1,137 @@
+.World {
+  display: flex;
+  align-items: center;        
+  justify-content: space-between; 
+  gap: 10px;                  
+  padding: 50px 8%;
+  background: transparent;
+  font-family: "Segoe UI", sans-serif;
+  border: solid 1px gray;
+  border-radius: 20px;
+}
+
+
+
+.Info-World {
+  max-width: 50%;
+}
+
+.Info-World h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.Info-World p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.Info-World button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  border: solid 1px gray;
+  transition: all 0.3s ease;
+}
+
+.Info-World button:hover {
+  background: rgba(128, 128, 128, 0.781);
+  transform: translateY(-2px);
+}
+
+.world-image {
+  width: 35%;
+
+}
+
+.world-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+/* Tablet screens (<= 1024px) */
+@media (max-width: 1024px) {
+  .World {
+    padding: 40px 5%;
+    gap: 20px;
+  }
+
+  .Info-World h1 {
+    font-size: 2.2rem;
+  }
+
+  .Info-World p {
+    font-size: 1rem;
+  }
+
+  .world-image {
+    width: 45%;
+  }
+}
+
+/* Mobile screens (<= 768px) */
+@media (max-width: 768px) {
+  .World {
+    flex-direction: column;   /* stack text & image */
+    text-align: center;
+    padding: 30px 5%;
+  }
+
+  .Info-World {
+    max-width: 100%;
+  }
+
+  .Info-World h1 {
+    font-size: 2rem;
+  }
+
+  .Info-World p {
+    font-size: 0.95rem;
+  }
+
+  .Info-World button {
+    margin: 0 auto; /* center button */
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+
+  .world-image {
+    width: 80%;  /* bigger image on small screens */
+    margin-top: 20px;
+  }
+}
+
+/* Very small screens (<= 480px) */
+@media (max-width: 480px) {
+  .Info-World h1 {
+    font-size: 1.6rem;
+  }
+
+  .Info-World p {
+    font-size: 0.9rem;
+  }
+
+  .Info-World button {
+    font-size: 0.85rem;
+    padding: 8px 18px;
+  }
+
+  .world-image {
+    width: 100%; /* full width */
+  }
+}
+

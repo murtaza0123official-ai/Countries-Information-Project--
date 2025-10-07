@@ -1,0 +1,115 @@
+/* Container for detail page */
+.Container-indivisulal {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  flex-wrap: wrap; /* ensures content doesn't overflow */
+}
+
+/* Flag section */
+.image-flag {
+  flex: 1;
+  max-width: 450px;
+  height: 400px;
+  text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.image-flag img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.8s ease;
+}
+
+.image-flag img:hover {
+  transform: scale(1.05);
+}
+
+/* Country info */
+.details-country {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.details-country strong {
+  color: #00bfff;
+}
+
+/* Heading */
+.Container-indivisulal h2 {
+  font-size: 2rem;
+  margin: 20px 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #f1f1f1;
+  text-shadow: 0 0 10px rgba(0, 191, 255, 0.6);
+}
+
+/* Borders & hover effect */
+.details-country p {
+  margin: 0;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.details-country p:hover {
+  background: rgba(0, 191, 255, 0.15);
+}
+
+/* 🔹 Go Back button */
+.Container-indivisulal button {
+  margin-top: 25px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00bfff, #1e90ff);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Container-indivisulal button:hover {
+  background: linear-gradient(135deg, #1e90ff, #00bfff);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 191, 255, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .Container-indivisulal {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .image-flag {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .details-country {
+    align-items: center;
+  }
+}
